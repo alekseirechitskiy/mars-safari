@@ -1,0 +1,53 @@
+//  === Screen widths  ===
+// --- desktop first ---
+// $screen-1280: "(max-width: 1279.98px)";
+// $screen-992: "(max-width: 991.98px)";
+// $screen-768: "(max-width: 767.98px)";
+// $screen-500: "(max-width: 499.98px)";
+// $screen-430: "(max-width: 429.98px)";
+
+// --- mobile first ---
+$screen-1440: "(min-width: 1440px)";
+$screen-1280: "(min-width: 1280px)";
+$screen-992: "(min-width: 992px)";
+$screen-768: "(min-width: 768px)";
+$screen-500: "(min-width: 500px)";
+$screen-430: "(min-width: 430px)";
+
+//  === Colors ===
+$white: #ffffff;
+$black: #000000;
+$gray: #808080;
+$lightgray: #d3d3d3;
+
+$blue-stone: #005a5a;
+$teal: #008b8b;
+$eastern-blue: #20b2aa;
+
+$main: $teal;
+$secondary: $eastern-blue;
+$accent: $blue-stone;
+
+
+// === Fonts ===
+$font-family-default: "Helvetica";
+
+// === Fonts sizes ===
+$font-size-normal: 16px;
+
+$font-size-large: 20px;
+$font-size-medium: 18px;
+$font-size-small: 14px;
+$font-size-extraSmall: 12px;
+
+// === Line heights ===
+$line-height-normal: 20px;
+
+$line-height-large: 24px;
+$line-height-medium: 22px;
+$line-height-small: 18px;
+$line-height-extraSmall: 16px;
+
+
+// === Fonts colors  ===
+$text-main-color: $black;

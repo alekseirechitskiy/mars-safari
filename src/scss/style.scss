@@ -1,0 +1,27 @@
+// @import "libs"; // Файлы стилей вендоров/плвгинов
+@import "vars"; // Переменные
+// @import "fonts"; // Подключение шрифтов
+@import "reset"; // Сброс стилей
+@import "global"; // Подключение глбальных стилей
+
+
+// Blocks
+@import "blocks/html";
+@import "blocks/body";
+@import "blocks/wrapper";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/menu";
+@import "blocks/footer";
+@import "blocks/title";
+
+//GUI elements
+@import "blocks/gui-elements/accordion";
+@import "blocks/gui-elements/breadcrumbs";
+@import "blocks/gui-elements/button";
+@import "blocks/gui-elements/form";
+@import "blocks/gui-elements/input-number";
+@import "blocks/gui-elements/modal";
+@import "blocks/gui-elements/pagination";

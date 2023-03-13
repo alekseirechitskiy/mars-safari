@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+
+@@include('html/_head.html',{'title': 'GUI'})
+
+<body class="body">
+  <style>
+    .main {
+      padding-top: 100px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin: 40px 0 30px;
+    }
+
+    h3 {
+      margin: 30px 0 15px;
+    }
+
+    @media (min-width: 768px) {
+      .main {
+        padding-top: 70px;
+      }
+    }
+  </style>
+
+  <div class="wrapper">
+    <!-- HEADER -->
+    @@include('html/_header.html',{})
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="container">
+        <h1>Компоненты</h1>
+
+        <!-- breadcrumbs -->
+        <h3>Хлебные крошки</h3>
+        @@include('html/_breadcrumbs.html',{})
+
+        <!-- input-number -->
+        <h3>Инпут-счетчик</h3>
+        @@include('html/_input-number.html',{})
+
+        <!-- modal window -->
+        <h3>Модальное окно</h3>
+        <button class="gui-show-modal button modal__show">Открыть модальное окно</button>
+        <button class="gui-show-modal button modal__show">Открыть модальное окно</button>
+        @@include('html/_modal.html',{})
+
+
+        <!-- pagination -->
+        <h3>Пагинация</h3>
+        @@include('html/_pagination.html',{})
+
+        <!-- Form elements -->
+        <!-- checkboxes and radiobuttons -->
+        <h2>Элементы формы</h2>
+        @@include('html/_form.html',{})
+
+        <!-- accordion -->
+        <h3>Аккордион</h3>
+        @@include('html/_accordion.html',{})
+      </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    @@include('html/_footer.html',{})
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.pagination__arrows,
+.pagination__item {
+  margin: 0 5px;
+}
+
+.pagination__prev,
+.pagination__next {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.pagination__prev {
+  margin-left: 0;
+}
+
+.pagination__next {
+  margin-right: 0;
+}
+
+.pagination__link {
+  &:hover,
+  &--active {
+    background-color: $teal;
+  }
+}

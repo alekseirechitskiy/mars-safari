@@ -1,0 +1,8 @@
+.main {
+  padding-top: 100px;
+  flex-grow: 1;
+
+  @media #{$screen-768} {
+    padding-top: 70px;
+  }
+}
